@@ -4,7 +4,7 @@
 This project contains a fast Python implementation of algorithms
 proposed in [[1]](#hariharan2004) to extract so-called stop locations
 from GPS data. The project also contains some sample data and a
-detailed Jupyter notebook that showcases the work.
+detailed Jupyter notebook that showcases the work. You can preview the notebook [here](https://nbviewer.jupyter.org/github/sebastianbertoli/Github-internship_human_mobility/blob/master/Notebook%20for%20github%20latest%20edition.ipynb).
 
 To check out the work [download this repository](https://github.com/sebastianbertoli/Github-internship_human_mobility/archive/master.zip), extract the zip file and run the
 `Notebook for github latest edition.ipynb`. :beers:
