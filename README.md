@@ -11,7 +11,7 @@ To check out the work [download this repository](https://github.com/sebastianber
 
 ## Prerequisites
 
-What things you need to install. Also see `requrements.txt`.
+What things you need to install. Also see `requirements.txt`.
 
 ```text
 ipython                   5.1.0
