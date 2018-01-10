@@ -26,7 +26,7 @@ scipy                     0.18.1
 
 ## Authors
 
-* **Sebastian Bertoli** - [sebastianbertoli](https://github.com/sebastianbertoli)
+**Sebastian Bertoli** - [sebastianbertoli](https://github.com/sebastianbertoli)
 
 ## License
 
