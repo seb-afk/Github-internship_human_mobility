@@ -5,22 +5,22 @@ proposed in [[1]](#hariharan2004) to extract so-called stop locations
 from GPS data. The project also contains some sample data and a
 detailed Jupyter notebook that showcases the work.
 
-To check out the work [download this repository](https://github.com/sebastianbertoli/Github-internship_human_mobility/archive/master.zip), extract the zip file and run the 
+To check out the work [download this repository](https://github.com/sebastianbertoli/Github-internship_human_mobility/archive/master.zip), extract the zip file and run the
 `Notebook for github latest edition.ipynb`. :beers:
 
 ## Prerequisites
 
 What things you need to install. In
-case you run in any troubles I have also listed the version number of each library I used. 
+case you run in any troubles I have also listed the version number of each library I used.
 
-```
+```text
 ipython                   5.1.0
 joblib                    0.11
 matplotlib                2.0.0
 numpy                     1.11.3
 pandas                    0.20.1
 plotly                    2.2.2
-scikit-learn              0.18.1 
+scikit-learn              0.18.1
 scipy                     0.18.1
 ```
 
