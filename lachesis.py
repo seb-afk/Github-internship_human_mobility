@@ -169,7 +169,7 @@ def rgiration_at_k(X, k=None, ignore_weigths=False):
     Parameters:
     ignore_weigths -- True if the visitation count at a destination 
     should not be used as weight in final R-gyration calculation.
-    X --  A numpy array of destinations [[longitude, latitude, count]]
+    X --  A pandas dataframe with columns [[longitude, latitude, count]]
     :param k -- How many of the most visited destinations to consider.
 
     Returns:
@@ -177,13 +177,16 @@ def rgiration_at_k(X, k=None, ignore_weigths=False):
     specified it returns the total radius of giration. If the number of
     destinations in X is smaller than k np.NaN is returned.
     """
+
     # Check that k is admissibile
     if k == None:
         k = X.shape[0]
     elif (k == 0) or (k > X.shape[0]):
         return np.nan
 
-    X = X[X[:, 2].argsort()][::-1]  # Sort array
+    # Convert to numpy array and sort
+    X = X.values
+    X = X[X[:, 2].argsort()][::-1]  
     X = X[:k]
 
     # In case the ignore weights parameter is set.
