@@ -1,4 +1,5 @@
 # Where people stay - extracting destinations from GPS data
+![](/images/readme_teaser.jpg)
 
 This project contains a fast Python implementation of algorithms
 proposed in [[1]](#hariharan2004) to extract so-called stop locations
