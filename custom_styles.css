@@ -1,0 +1,102 @@
+/* <link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400' rel='stylesheet' type='text/css'> */
+<style>
+
+    .left {
+        float: left;
+        border: 0px solid #BDBDBD;
+        background: #FFF;
+        padding: 0px;
+        margin:5px;
+    }
+
+    .right {
+        float: right;
+        width: 200px;
+        border: 0px solid #BDBDBD;
+        background: #FFF;
+        padding: 5px;
+        margin:5px;
+    }
+
+    figcaption{
+    text-align:center;
+    }
+
+    div.cell{
+        width:800px;
+        margin-left:10% !important;
+        margin-right:auto;
+    }
+    h1 {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+    h2 {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+    h3{
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        margin-top:12px;
+        margin-bottom: 3px;
+       }
+	h4{
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+       }
+    h5 {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    }	   
+    div.text_cell_render{
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #222; 
+        line-height: 150%;
+        font-size: 120%;
+        width:600px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .CodeMirror{
+            font-family: "Source Code Pro", "Menlo", "Monaco", monospace;
+			font-size: 100%;
+    }
+/*    .prompt{
+        display: None;
+    }*/
+    .text_cell_render h1 {
+        font-weight: 200;
+        font-size: 30pt;
+		line-height: 100%;
+        color:#CD2305;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        display: block;
+    }	
+    .text_cell_render h5 {
+        font-weight: 300;
+        font-size: 16pt;
+        color: #CD2305;
+        font-style: italic;
+        margin-bottom: .5em;
+        margin-top: 0.5em;
+        display: block;
+    }
+    
+    .warning{
+        color: rgb( 240, 20, 20 )
+        }  
+</style>
+<script>
+    MathJax.Hub.Config({
+                        TeX: {
+                           extensions: ["AMSmath.js"]
+                           },
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+                },
+                displayAlign: 'center', // Change this to 'center' to center equations.
+                "HTML-CSS": {
+                    styles: {'.MathJax_Display': {"margin": 4}}
+                }
+        });
+</script>
