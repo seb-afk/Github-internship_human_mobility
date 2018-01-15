@@ -23,8 +23,8 @@ def plot_datasample(df_plotting):
                                             marker=go.Marker(size=3,opacity = 0.3))
                             ],
                     layout = go.Layout(autosize=False,
-                                    width=680,
-                                    height=340,
+                                    width=640,
+                                    height=300,
                                     margin=go.Margin(
                                         l=0,
                                         r=0,
@@ -64,8 +64,8 @@ def plot_one_user(df_plotting):
                                             marker=go.Marker(size=14,opacity = 0.7))
                             ],
                     layout = go.Layout(autosize=False,
-                                       width=680,
-                                       height=340,
+                                       width=640,
+                                       height=300,
                                        margin=go.Margin(l=0, r=0, b=0, t=0, pad=0),
                                        hovermode='closest',
                                        mapbox=dict(accesstoken=mapbox_access_token,
@@ -99,8 +99,8 @@ def plot_stops(df_plotting):
                                             marker=go.Marker(size=5,opacity = 1, color='orange'))
                             ],
                     layout = go.Layout(autosize=False,
-                                    width=680,
-                                    height=340,
+                                    width=640,
+                                    height=300,
                                     margin=go.Margin(
                                         l=0,
                                         r=0,
@@ -135,8 +135,8 @@ def plot_destinations(df_plotting):
                                                             color=cluster_colors))
                             ],
                     layout = go.Layout(autosize=False,
-                                    width=680,
-                                    height=340,
+                                    width=640,
+                                    height=300,
                                     margin=go.Margin(
                                         l=0,
                                         r=0,
