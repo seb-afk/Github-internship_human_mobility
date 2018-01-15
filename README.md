@@ -28,10 +28,6 @@ scipy                     0.18.1
 
 **Sebastian Bertoli** - [sebastianbertoli](https://github.com/sebastianbertoli)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 My thanks go to Marco de Nadai and Lorenzo Lucchini for their insights, guidance and code-fixes. 
