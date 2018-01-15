@@ -3,14 +3,6 @@
 <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400' rel='stylesheet' type='text/css'>
 <style>
 
-    .left {
-        float: left;
-        border: 0px solid #BDBDBD;
-        background: #FFF;
-        padding: 0px;
-        margin:5px;
-    }
-
     .right {
         float: right;
         width: 200px;
