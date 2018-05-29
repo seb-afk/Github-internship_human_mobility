@@ -35,5 +35,7 @@ My thanks go to Marco de Nadai and Lorenzo Lucchini for their insights, guidance
 ## References
 
 <a id='hariharan2004'></a> [1] Hariharan R., Toyama K. (2004) [Project Lachesis: Parsing and Modeling Location Histories.](https://link.springer.com/chapter/10.1007/978-3-540-30231-5_8#citeas) In: Egenhofer M.J., Freksa C., Miller H.J. (eds) Geographic Information Science. GIScience 2004. Lecture Notes in Computer Science, vol 3234. Springer, Berlin, Heidelberg
+
 [2] Jing Yuan, Yu Zheng, Xing Xie, and Guangzhong Sun. Driving with knowledge from the physical world. In The 17th ACM SIGKDD international conference on Knowledge Discovery and Data mining, KDD’11, New York, NY, USA, 2011. ACM.
+
 [3] Jing Yuan, Yu Zheng, Chengyang Zhang, Wenlei Xie, Xing Xie, Guangzhong Sun, and Yan Huang. T-drive: driving directions based on taxi trajectories. In Proceedings of the 18th SIGSPATIAL International Conference on Advances in Geographic Information Systems, GIS ’10, pages 99-108, New York, NY, USA,2010. ACM.
